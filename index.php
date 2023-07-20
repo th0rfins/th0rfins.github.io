@@ -1,17 +1,3 @@
-<?php
-session_start();
-if(!isset($_SESSION['login'])) {
-    header('LOCATION:login/login.php'); die();
-} else {
-}
-if(isset($_POST['but_logout'])){
-
-
-
-    session_destroy();
-    header('Location: index.php');
-}
- ?>
 <!DOCTYPE html>
 <html class="loading">
 <head>
